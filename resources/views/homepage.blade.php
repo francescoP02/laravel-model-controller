@@ -15,7 +15,10 @@
 
         <div>
             <h3> {{$movie->title}} </h3>
-            <p> {{$movie->original_title}}</p>
+            <p> {{$movie->original_title}} </p>
+            <p> {{$movie->nationality}} </p>
+            <p> {{$movie->date}} </p>
+            <span> {{$movie->vote}} </span>
         </div>
         
     @endforeach
